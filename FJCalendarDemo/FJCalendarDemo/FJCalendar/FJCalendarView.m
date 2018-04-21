@@ -90,8 +90,9 @@
 
 // MARK:- Utils
 - (NSString *)monthNameForMonthNumber: (NSUInteger)monthNumber {
-    NSArray *months = @[@"Enero", @"Febrero", @"Marzo", @"Abril", @"Mayo", @"Junio", @"Julio", @"Agosto", @"Septiembre", @"Octubre", @"Noviembre", @"Diciembre"];
-    return [months objectAtIndex:monthNumber-1];
+    NSDateFormatter *df = [[NSDateFormatter alloc] init];
+    NSString *monthName = [[df monthSymbols] objectAtIndex:(monthNumber-1)];
+    return monthName;
 }
 
 - (NSUInteger)numberOfDaysForMonth: (NSUInteger)month andYear: (NSUInteger)year {
