@@ -1,4 +1,4 @@
-# FJCAlendar
+# FJCalendarView
 Calendar component made in Objective-C
 
 > This project has started as a component in a freelance job and I want to open the code in case anyone need the same functionality.
