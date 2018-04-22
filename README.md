@@ -1,6 +1,8 @@
 # FJCalendarView
 Calendar component made in Objective-C
 
+![alt text](https://raw.githubusercontent.com/fedejordan/FJCalendarView/master/demo.gif)
+
 > This project has started as a component in a freelance job and I want to open the code in case anyone need the same functionality.
 
 ### Main features
