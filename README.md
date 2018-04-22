@@ -12,7 +12,7 @@ Calendar component made in Objective-C
 
 ### Installation
 Clone the repository and copy the folder `FJCalendar` to your project. Add `#import "FJCalendarView.h"` to your view controller or class that needs to use it.
-> If you need Swift support, here is some info about how to support Objective-C files in Swift projects
+> If you need Swift support, [here](https://developer.apple.com/library/content/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html) is some info about how to support Objective-C files in Swift projects
 
 ### Usage
 Add a `UIView` component to your view controller xib or storyboard and change the class name (in the second tab of Utilites panel) to `FJCalendarView`. 
